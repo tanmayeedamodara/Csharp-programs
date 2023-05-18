@@ -1,5 +1,5 @@
 using System;
-using Sy
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
