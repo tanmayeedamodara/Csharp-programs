@@ -36,7 +36,6 @@ namespace ConsoleApp1
                 head = newNode;
                 return;
             }
-
             Node currNode = head;
             while(currNode.next != null)
             {
@@ -83,7 +82,6 @@ namespace ConsoleApp1
                 node = node.next;
             }
             Console.WriteLine("NULL");
-            Console.ReadLine();
         }
 
         public static void Main(string[] args)
@@ -103,6 +101,7 @@ namespace ConsoleApp1
             list.AddAtIndex(2, 15);
             list.AddAtIndex(5, 35);
             list.printList();
+            Console.ReadLine();
         }
     }
 }
